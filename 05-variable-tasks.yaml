@@ -7,7 +7,7 @@
     Trainer: "Chaitanya"
     Duration: "110HRS"
   tasks:
-  - name: check variables
+  - name: Check variables
     Vars: # task level
       Course: "DevOps with AWS"
     ansible.builtin.debug:
