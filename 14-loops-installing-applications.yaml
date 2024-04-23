@@ -10,3 +10,5 @@
     - git
     - mysql
     - postfix
+    - redhat
+    - nginx
