@@ -6,10 +6,12 @@
     - Devops
     - AWS
     - Docker
+    - Linux
     Experience:
       Devops: 6
       AWS:  5
       Docker: 4
+    Trainer: true
   tasks:
   - name: Print key value pair
     ansible.builtin.debug:
