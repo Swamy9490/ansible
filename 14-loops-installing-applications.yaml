@@ -3,11 +3,9 @@
   tasks:
   - name: installing applications
     ansible.builtin.package:
-      name:  "{{item}}"
+      name: "{{item}}"
       state: present # # item is a default keyword
     loop:
     - git
     - mysql
-    - redhat
-    - nginx
     - postfix
