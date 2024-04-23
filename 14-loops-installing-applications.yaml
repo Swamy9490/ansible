@@ -1,0 +1,13 @@
+- name: loops
+  hosts: localhost
+  tasks:
+  - name: installing applications
+    ansible.builtin.package:
+      name:  "Install {{item}}"
+      state: present # # item is a default keyword
+    loop:
+    - git
+    - mysql
+    - redhat
+    - nginx
+    - postfix
